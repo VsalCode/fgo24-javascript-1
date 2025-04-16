@@ -7,4 +7,31 @@ for (let index = 1; index <= 5; index++) {
   }
 }
 
+/* output :
+1
+2
+3
+Fazztrack
+5
+*/
 
+let x = 0
+
+while (x < 5) {
+  let row = " "
+  let y = 0
+  while (y < 5 - x ) {
+    row += "* "
+    y++;
+  }
+  console.log(row);
+  x++;
+} 
+
+/* output :
+* * * * * 
+ * * * * 
+ * * * 
+ * * 
+ * 
+*/
