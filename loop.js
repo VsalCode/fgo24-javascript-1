@@ -29,9 +29,34 @@ while (x < 5) {
 } 
 
 /* output :
+
 * * * * * 
  * * * * 
  * * * 
  * * 
  * 
+
+*/
+
+let a = 0
+
+while (a <= 5) {
+  let row = " "
+  let b = 0
+  while (b < a ) {
+    row += "* "
+    b++;
+  }
+  console.log(row);
+  a++;
+}
+
+/* Output :
+
+ * 
+ * * 
+ * * * 
+ * * * * 
+ * * * * * 
+
 */
