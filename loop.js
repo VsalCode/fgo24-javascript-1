@@ -24,9 +24,9 @@ for (let r1 = 0; r1 < 5; r1++) {
 }
 
 // FOR - SEGITIGA SIKU-SIKU
-for (let r1 = 0; r1 <= 5; r1++) {
+for (let i = 0; i <= 5; i++) {
   row = ""
-  for (let r2 = 0; r2 < r1; r2++) {
+  for (let f = 0; f < i; f++) {
     row += "* "
   }  
   console.log(row);
@@ -87,7 +87,7 @@ while (a <= 5) {
 DO WHILE LOOP
 -----------------------------------------------*/
 
-// FAZZTRACK
+// Fazztrack
 
 z = 1
 
@@ -100,3 +100,30 @@ do {
   }
   z++
 } while (z <= 5); 
+
+// DO WHILE - SEGITIGA TERBALIK
+m = 0
+do {
+  n = 0
+  row = ""
+  do{
+    row += "* "      
+    n++
+  }while (n < 5 - m)
+    console.log(row);
+  m++
+} while (m < 5);
+
+// DO WHILE - SEGITIGA SIKU-SIKU
+m = 0
+do {
+  n = 0
+  row = ""
+  do{
+    row += "* "      
+    n++
+  }while (n < m)
+    console.log(row);
+  m++
+} while (m < 5);
+
