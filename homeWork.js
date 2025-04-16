@@ -67,7 +67,7 @@ for (let i = 0; i < dataTransaksi.length; i++) {
 }
 console.log("- " + transaksiTertinggi.namaItem + " adalah transaksi tertinggi dari data transaksi, dengan harga : Rp." + transaksiTertinggi.harga);
 
-let transaksiTerendah = { harga: 1.000000000 } 
+let transaksiTerendah = { harga: 1000000000 } 
 
 for (let i = 0; i < dataTransaksi.length; i++) {
   if(transaksiTerendah.harga > dataTransaksi[i].harga ){
